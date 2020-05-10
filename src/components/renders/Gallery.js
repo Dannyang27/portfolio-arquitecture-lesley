@@ -20,80 +20,61 @@ const gallery = () => {
                 thumbnail: olafure_house,
                 thumbnailWidth: 110,
                 thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                caption: "OLAFURE HOUSE by Wei Lesley"
             },
             {
                 src: frama_copenhagen,
                 thumbnail: frama_copenhagen,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: inax_bathroom,
                 thumbnail: inax_bathroom,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: everyman_bathroom,
                 thumbnail: everyman_bathroom,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: staircase_paris,
                 thumbnail: staircase_paris,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: plants,
                 thumbnail: plants,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: lisbon_apartment,
                 thumbnail: lisbon_apartment,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: frama_copenhagen_bedroom,
                 thumbnail: frama_copenhagen_bedroom,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: building,
                 thumbnail: building,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             },
             {
                 src: interior_2,
                 thumbnail: interior_2,
                 thumbnailWidth: 110,
-                thumbnailHeight: 150,
-                isSelected: false,
-                caption: "After Rain (Jeshu John - designerspics.com)"
+                thumbnailHeight: 150
             }
         ]
 
