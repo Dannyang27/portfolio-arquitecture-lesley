@@ -11,7 +11,6 @@ import olafure_house from './images/olafure_house.jpg'
 import plants from './images/plants.jpg'
 import staircase_paris from './images/staircase_paris.jpg'
 
-
 const gallery = () => {
     const IMAGES =
         [
