@@ -12,7 +12,7 @@ function App() {
     return (
         <Router>
             <div>
-                <nav className="navbar red-background">
+                <nav className="navbar">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="/">
                             <img src={logo} className="logo-img"/>

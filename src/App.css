@@ -73,37 +73,30 @@ li {
     width: 40px;
     height: 40px;
     float: left;
+    margin-right: 15px;
 }
 
 .brand-name {
     float: left;
-    align-content: baseline;
+    vertical-align: bottom;
 }
 
 .navbar-top-margin {
     margin-top: 40px;
 }
 
-.red-background {
-    background-color: red;
-}
-
 .my-footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: 20px;
+    bottom: 50px;
     width: 100%;
-    background-color: red;
-    color: white;
     text-align: left;
 }
 
 .information-block {
-    background-color: aqua;
     width: 50%;
     height: 400px;
     margin: auto;
-    border: 3px solid green;
     padding: 10px;
     text-align: center;
 }
