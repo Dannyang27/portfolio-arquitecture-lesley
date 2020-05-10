@@ -42,17 +42,48 @@ nav {
 }
 
 li {
-    float: left;
     list-style: none;
-    padding-right: 10px;
 }
 
 .logo-img{
     width: 40px;
     height: 40px;
+    float: left;
 }
 
 .brand-name{
-    float: right;
-    vertical-align: bottom;
+    float: left;
+    align-content: baseline;
+}
+
+.navbar-top-margin{
+    margin-top: 40px;
+}
+
+.red-background{
+    background-color: red;
+}
+
+.my-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+
+.information-block{
+    background-color: aqua;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.instagram-logo-medium{
+    font-size: 36px;
 }

@@ -7,19 +7,25 @@ import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import 'bootstrap/dist/css/bootstrap.css';
 import logo from "./components/renders/images/logo.png"
+
 function App() {
     return (
         <Router>
             <div>
-                <nav className="navbar bg-light">
+                <nav className="navbar red-background">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="/">
                             <img src={logo} className="logo-img"/>
-                            <h4 className="brand-name">Weil Visual</h4>
+                            <h4 className="brand-name">
+                                Weil Visual
+                            </h4>
                         </a>
                     </div>
+                </nav>
+
+                <nav className="navbar navbar-top-margin">
                     <div>
-                        <ul>
+                        <ul class="navbar-nav">
                             <li>
                                 <Link to="/">Renders</Link>
                             </li>
@@ -44,6 +50,10 @@ function App() {
                         <Contact/>
                     </Route>
                 </Switch>
+
+                <div className="my-footer">
+                    <p>&#169; Wei Lesley</p>
+                </div>
             </div>
         </Router>
     );
