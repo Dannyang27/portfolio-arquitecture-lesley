@@ -45,26 +45,26 @@ li {
     list-style: none;
 }
 
-.logo-img{
+.logo-img {
     width: 40px;
     height: 40px;
     float: left;
 }
 
-.brand-name{
+.brand-name {
     float: left;
     align-content: baseline;
 }
 
-.navbar-top-margin{
+.navbar-top-margin {
     margin-top: 40px;
 }
 
-.red-background{
+.red-background {
     background-color: red;
 }
 
-.my-footer{
+.my-footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -74,7 +74,7 @@ li {
     text-align: left;
 }
 
-.information-block{
+.information-block {
     background-color: aqua;
     width: 50%;
     height: 500px;
@@ -84,6 +84,11 @@ li {
     text-align: center;
 }
 
-.instagram-logo-medium{
+.instagram-logo-medium {
     font-size: 36px;
+}
+
+.portrait-image-size {
+    width: 110px;
+    height: 150px;
 }

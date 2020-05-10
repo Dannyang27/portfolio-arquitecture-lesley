@@ -6,7 +6,7 @@ import './App.css';
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from "./components/renders/images/logo.png"
+import logo from "./images/logo.png"
 
 function App() {
     return (
