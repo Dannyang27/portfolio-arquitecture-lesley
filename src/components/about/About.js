@@ -1,5 +1,5 @@
 import React from 'react';
-import portraitImage from '../../images/weil_lesley.png'
+import portraitImage from '../../images/weil.png'
 import './About.css'
 
 const about = () => {
