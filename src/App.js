@@ -5,23 +5,32 @@ import Render from "./components/renders/Render";
 import './App.css';
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
-
+import 'bootstrap/dist/css/bootstrap.css';
+import logo from "./components/renders/images/logo.png"
 function App() {
     return (
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Renders</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Contact</Link>
-                        </li>
-                    </ul>
+                <nav className="navbar bg-light">
+                    <div className="navbar-header">
+                        <a className="navbar-brand" href="/">
+                            <img src={logo} className="logo-img"/>
+                            <h4 className="brand-name">Weil Visual</h4>
+                        </a>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <Link to="/">Renders</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
 
                 <Switch>
