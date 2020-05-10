@@ -42,7 +42,12 @@
 }
 
 .helvetica-light {
-    font-family: "Helvetica-Light";
+    font-family: Helvetica-Light;
+}
+
+.link-hover:hover{
+    font-family: Helvetica;
+    color: black;
 }
 
 .size-large {
@@ -77,8 +82,8 @@ li {
 }
 
 .brand-name {
-    float: left;
-    vertical-align: bottom;
+    color: black;
+    vertical-align: auto;
 }
 
 .navbar-top-margin {
@@ -103,6 +108,7 @@ li {
 
 .instagram-logo-medium {
     font-size: 36px;
+    color: black;
 }
 
 .portrait-image-size {

@@ -27,18 +27,18 @@ function App() {
                     <div>
                         <ul class="navbar-nav">
                             <li>
-                                <Link to="/">
-                                    <h3 className="helvetica-regular size-medium light-grey">Renders</h3>
+                                <Link to="/" className="link">
+                                    <h3 className="helvetica-light size-medium light-grey link-hover">Renders</h3>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/about">
-                                    <h3 className="helvetica-light size-medium light-grey">About</h3>
+                                    <h3 className="helvetica-light size-medium light-grey link-hover">About</h3>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/contact">
-                                    <h3 className="helvetica-light size-medium light-grey">Contact</h3>
+                                    <h3 className="helvetica-light size-medium light-grey link-hover">Contact</h3>
                                 </Link>
                             </li>
                         </ul>
