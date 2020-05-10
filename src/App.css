@@ -37,6 +37,30 @@
     }
 }
 
+.helvetica-regular {
+    font-family: Helvetica;
+}
+
+.helvetica-light {
+    font-family: "Helvetica-Light";
+}
+
+.size-large {
+    font-size: 12px;
+}
+
+.size-medium {
+    font-size: 10px;
+}
+
+.light-grey {
+    color: #969696;
+}
+
+h4 {
+    font-size: 8px;
+}
+
 nav {
     display: block;
 }
@@ -77,7 +101,7 @@ li {
 .information-block {
     background-color: aqua;
     width: 50%;
-    height: 500px;
+    height: 400px;
     margin: auto;
     border: 3px solid green;
     padding: 10px;
@@ -91,4 +115,5 @@ li {
 .portrait-image-size {
     width: 110px;
     height: 150px;
+    margin-right: 10px;
 }

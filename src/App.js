@@ -16,7 +16,7 @@ function App() {
                     <div className="navbar-header">
                         <a className="navbar-brand" href="/">
                             <img src={logo} className="logo-img"/>
-                            <h4 className="brand-name">
+                            <h4 className="brand-name helvetica-regular size-large">
                                 Weil Visual
                             </h4>
                         </a>
@@ -27,13 +27,19 @@ function App() {
                     <div>
                         <ul class="navbar-nav">
                             <li>
-                                <Link to="/">Renders</Link>
+                                <Link to="/">
+                                    <h3 className="helvetica-regular size-medium light-grey">Renders</h3>
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/about">About</Link>
+                                <Link to="/about">
+                                    <h3 className="helvetica-light size-medium light-grey">About</h3>
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/contact">
+                                    <h3 className="helvetica-light size-medium light-grey">Contact</h3>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -51,7 +57,7 @@ function App() {
                     </Route>
                 </Switch>
 
-                <div className="my-footer">
+                <div className="my-footer helvetica-light size-medium light-grey">
                     <p>&#169; Wei Lesley</p>
                 </div>
             </div>
