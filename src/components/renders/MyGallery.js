@@ -10,6 +10,9 @@ import lisbon_apartment from './images/lisbon_apartment.jpg'
 import olafure_house from './images/olafure_house.jpg'
 import plants from './images/plants.jpg'
 import staircase_paris from './images/staircase_paris.jpg'
+import building_thumbnail from './images/thumbnails/building_thumbnail.jpg'
+import frama_thumbnail from './images/thumbnails/frama_copenhagen_thumbnail.jpg'
+import interior_thumbnail from './images/thumbnails/interior_2_thumbnail.jpg'
 
 const MyGallery = (props) => {
 
@@ -27,7 +30,7 @@ const MyGallery = (props) => {
             },
             {
                 src: frama_copenhagen,
-                thumbnail: frama_copenhagen,
+                thumbnail: frama_thumbnail,
                 thumbnailWidth: width,
                 thumbnailHeight: height
             },
@@ -69,13 +72,13 @@ const MyGallery = (props) => {
             },
             {
                 src: building,
-                thumbnail: building,
+                thumbnail: building_thumbnail,
                 thumbnailWidth: width,
                 thumbnailHeight: height
             },
             {
                 src: interior_2,
-                thumbnail: interior_2,
+                thumbnail: interior_thumbnail,
                 thumbnailWidth: width,
                 thumbnailHeight: height
             }
