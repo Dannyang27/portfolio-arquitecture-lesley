@@ -1,5 +1,5 @@
 .app-container{
-    margin: 80px;
+    margin: 80px 200px;
 }
 
 .flex-container{
@@ -7,7 +7,7 @@
 }
 
 .footer-container{
-    margin: 0px 80px;
+    margin: 0px 200px;
 }
 
 .helvetica-regular {
@@ -72,6 +72,7 @@ li {
     bottom: 50px;
     width: 100%;
     text-align: left;
+    color: black;
 }
 
 .information-block {
