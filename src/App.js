@@ -15,10 +15,16 @@ function App() {
                 <nav className="navbar">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="/">
-                            <img src={logo} className="logo-img"/>
-                            <h4 className="brand-name helvetica-regular size-large">
-                                Weil Visual
-                            </h4>
+                            <div className="flex-container">
+                                <div>
+                                    <img src={logo} className="logo-img"/>
+                                </div>
+                                <div>
+                                    <span className="brand-name helvetica-regular size-large">
+                                        Weil Visual
+                                    </span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </nav>

@@ -85,7 +85,7 @@ const MyGallery = (props) => {
 
     return (
         <div>
-            <Gallery images={IMAGES} rowHeight={height} maxRows={2} margin={4}/>
+            <Gallery images={IMAGES} rowHeight={height} maxRows={2} margin={5}/>
         </div>
     )
 }
