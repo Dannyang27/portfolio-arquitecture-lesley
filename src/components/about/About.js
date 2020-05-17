@@ -2,7 +2,7 @@ import React from 'react';
 import portraitImage from '../../images/weil.png'
 import './About.css'
 
-const about = () => {
+const About = () => {
     return (
         <div className="information-block">
             <img src={portraitImage} className="portrait-image-size my-float-left"/>
@@ -20,4 +20,4 @@ const about = () => {
     )
 }
 
-export default about;
+export default About;

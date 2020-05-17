@@ -68,8 +68,8 @@ li {
 }
 
 .information-block {
-    width: 38%;
-    height: 400px;
+    width: 70vh;
+    height: 40vh;
     margin: auto;
     padding: 10px;
     text-align: center;

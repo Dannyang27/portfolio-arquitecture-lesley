@@ -1,6 +1,6 @@
 import React from 'react';
 
-const contact = () => {
+const Contact = () => {
     return (
         <div className="information-block">
             <h4 className="helvetica-light size-medium light-grey">weil@weilvisual.com</h4>
@@ -12,4 +12,4 @@ const contact = () => {
     )
 }
 
-export default contact;
+export default Contact;

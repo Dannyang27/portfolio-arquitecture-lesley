@@ -1,13 +1,21 @@
-import React from 'react';
-import Gallery from "./Gallery";
+import React, {useEffect, useRef, useState} from 'react';
+import MyGallery from "./MyGallery";
 import './Render.css'
 
-const render = () => {
+const Render = () => {
+
+    const ref = useRef(null);
+    const [width, setWidth] = useState(500)
+    useEffect(() => {
+        setWidth(ref.current ? ref.current.offsetWidth : 0)
+    }, [ref.current]);
+
     return(
-        <div className="information-block">
-            <Gallery/>
+
+        <div ref={ref} className="information-block">
+            <MyGallery width={width}/>
         </div>
     )
 }
 
-export default render;
+export default Render;
