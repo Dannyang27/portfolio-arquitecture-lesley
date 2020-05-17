@@ -20,11 +20,11 @@
 }
 
 .size-large {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .size-medium {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .light-grey {
@@ -78,6 +78,7 @@ li {
 .instagram-logo-medium {
     font-size: 36px;
     color: black;
+    margin-top: 10px;
 }
 
 .portrait-image-size {

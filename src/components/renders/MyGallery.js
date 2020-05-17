@@ -26,7 +26,6 @@ const MyGallery = (props) => {
                 thumbnail: olafure_house,
                 thumbnailWidth: width,
                 thumbnailHeight: height,
-                caption: "OLAFURE HOUSE by Wei Lesley"
             },
             {
                 src: frama_copenhagen,
