@@ -11,7 +11,7 @@ import logo from "./images/logo.png"
 function App() {
     return (
         <Router>
-            <div>
+            <div className="app-container">
                 <nav className="navbar">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="/">
@@ -42,6 +42,10 @@ function App() {
                                 </Link>
                             </li>
                         </ul>
+
+                        <div className="my-footer helvetica-light size-medium light-grey footer-container">
+                            <p>&#169; Wei Lesley</p>
+                        </div>
                     </div>
                 </nav>
 
@@ -56,10 +60,6 @@ function App() {
                         <Contact/>
                     </Route>
                 </Switch>
-
-                <div className="my-footer helvetica-light size-medium light-grey">
-                    <p>&#169; Wei Lesley</p>
-                </div>
             </div>
         </Router>
     );
